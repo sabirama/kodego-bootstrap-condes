@@ -1,0 +1,37 @@
+body {
+  overflow-x: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+}
+
+.sec-display {
+  width: 90vw;
+  height: 90vh;
+  margin: 25px auto;
+  padding: 50px;
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+}
+.box {
+  position: relative;
+  width: 90%;
+  height: 50%;
+  margin: auto 1%;
+}
+#box-1 {
+  border: 2px solid red;
+  border-radius: 0 25px;
+  background-color: black;
+}
+
+#box-2 {
+  border: 2px solid green;
+  border-radius: 25px 0;
+  background-color: white;
+}
